@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "OTAUpdate",
+    "slug": "OTAUpdate",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
