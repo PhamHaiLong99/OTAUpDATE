@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Alert, Button, StyleSheet, Text, View } from "react-native";
 import * as Updates from "expo-updates"; // Updates*
 export default function App() {
   React.useEffect(() => {
@@ -29,13 +29,17 @@ export default function App() {
         }}
       >
         <Button
-          onPress={() => {}}
+          onPress={() => {
+            Alert.alert("Hello");
+          }}
           title="Learn More"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
         <Button
-          onPress={() => {}}
+          onPress={() => {
+            Alert.alert("World");
+          }}
           title="Learn More"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
