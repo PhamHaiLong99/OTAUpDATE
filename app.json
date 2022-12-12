@@ -9,9 +9,13 @@
         "projectId": "7827789f-b1f9-43ac-8330-cd9be071d2c6"
       }
     },
-    "runtimeVersion": "1.0.0",
+    "runtimeVersion": "1.0.1",
+
     "updates": {
-      "url": "https://u.expo.dev/7827789f-b1f9-43ac-8330-cd9be071d2c6"
+      "url": "https://u.expo.dev/7827789f-b1f9-43ac-8330-cd9be071d2c6",
+      "requestHeaders": {
+        "expo-channel-name": "staging"
+      }
     },
     "android": {
       "package": "com.longph19.otaupdate"
