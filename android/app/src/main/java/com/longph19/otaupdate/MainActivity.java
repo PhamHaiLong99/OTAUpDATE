@@ -1,4 +1,4 @@
-package com.otaupdate;
+package com.longph19.otaupdate;
 
 import android.os.Build;
 import android.os.Bundle;

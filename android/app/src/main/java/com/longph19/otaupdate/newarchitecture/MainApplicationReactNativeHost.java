@@ -1,4 +1,4 @@
-package com.otaupdate.newarchitecture;
+package com.longph19.otaupdate.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.otaupdate.BuildConfig;
-import com.otaupdate.newarchitecture.components.MainComponentsRegistry;
-import com.otaupdate.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.longph19.otaupdate.BuildConfig;
+import com.longph19.otaupdate.newarchitecture.components.MainComponentsRegistry;
+import com.longph19.otaupdate.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

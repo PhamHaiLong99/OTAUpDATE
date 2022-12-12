@@ -1,12 +1,40 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { Button, StyleSheet, Text, View } from "react-native";
+import * as Updates from "expo-updates"; // Updates*
 export default function App() {
+  React.useEffect(() => {
+    (async () => {
+      try {
+        const update = await Updates.checkForUpdateAsync();
+        if (update.isAvailable) {
+          await Updates.fetchUpdateAsync();
+          // NOTIFY USER HERE
+          Updates.reloadAsync();
+        }
+      } catch (e) {
+        // HANDLE ERROR HERE
+        console.error(e);
+      }
+    })();
+  }, []);
+
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
+      <View
+        style={{
+          marginTop: 20,
+        }}
+      >
+        <Button
+          onPress={() => {}}
+          title="Learn More"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+      </View>
     </View>
   );
 }

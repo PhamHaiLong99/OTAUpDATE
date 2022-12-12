@@ -3,8 +3,21 @@
     "name": "OTAUpdate",
     "slug": "OTAUpdate",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "7827789f-b1f9-43ac-8330-cd9be071d2c6"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/7827789f-b1f9-43ac-8330-cd9be071d2c6"
+    },
+    "android": {
+      "package": "com.longph19.otaupdate"
+    },
+    "ios": {
+      "bundleIdentifier": "com.longph19.otaupdate"
+    }
   }
 }

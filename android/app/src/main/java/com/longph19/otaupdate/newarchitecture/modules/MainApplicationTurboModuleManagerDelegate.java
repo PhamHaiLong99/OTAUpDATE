@@ -1,4 +1,4 @@
-package com.otaupdate.newarchitecture.modules;
+package com.longph19.otaupdate.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

@@ -1,4 +1,4 @@
-package com.otaupdate.newarchitecture.components;
+package com.longph19.otaupdate.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
