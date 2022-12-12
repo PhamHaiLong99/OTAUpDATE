@@ -30,7 +30,7 @@ export default function App() {
       >
         <Button
           onPress={() => {
-            Alert.alert("Hello");
+            Alert.alert("Hello World!");
           }}
           title="Learn More"
           color="#841584"
@@ -38,10 +38,10 @@ export default function App() {
         />
         <Button
           onPress={() => {
-            Alert.alert("World");
+            Alert.alert("My name is Long!");
           }}
-          title="Learn More"
-          color="#841584"
+          title="Show Name"
+          color="#8415"
           accessibilityLabel="Learn more about this purple button"
         />
       </View>
