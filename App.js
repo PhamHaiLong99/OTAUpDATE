@@ -30,7 +30,7 @@ export default function App() {
       >
         <Button
           onPress={() => {
-            Alert.alert("Hello World!");
+            Alert.alert("Hello");
           }}
           title="Learn More"
           color="#841584"
@@ -38,7 +38,7 @@ export default function App() {
         />
         <Button
           onPress={() => {
-            Alert.alert("My name is Long!");
+            Alert.alert("World!");
           }}
           title="Show Name"
           color="#8415"
